@@ -1,0 +1,132 @@
+
+@font-face {
+font-family: opensans;
+src: url(fonts/OpenSans-Regular.ttf);
+}
+
+  #container
+  {
+  font-family:opensans;
+  border: 2px solid;
+
+  background-color: LightGrey;
+  height: auto;
+  width:auto;
+  padding:25px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#b
+{
+  opacity: 0.6;
+  font size: 25px;
+  margin: 0px;
+  position: relative;
+  text-decoration: none;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+
+}
+#a
+{
+  font size: 500px;
+  margin: 0px;
+  position: relative;
+  text-decoration: none;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+
+}
+
+#c
+{
+  opacity:0.5;
+  position: relative;
+  margin: 0px;
+  position: relative;
+  text-decoration: none;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+
+}
+
+#line
+{
+  opacity: 0.5;
+  margin:5px;
+  position: relative;
+
+}
+
+#disp
+{
+  width: 500px;
+}
+
+#ise,#pro,#tra,#pr,#exp1,#tec
+{
+  opacity: 0.6;
+}
+
+
+#left{
+  font-family: opensans;
+}
+#right
+{
+  font-family: sans-serif;
+  width:auto;
+  }
+
+  #z,#z1,#z2,#z3,#z4,#z5,#z6{
+    border-left: 4px solid;
+    border-color: #256;
+  }
+  #z1
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #pro
+  {
+    width: auto;
+  }
+  .button1{
+    background-color: rgb(0,180,214);
+    border: 2px solid black;
+    color: white;
+    width: 140px;
+    height: 35px;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+  }
+  .button1:hover
+  {
+    box-shadow: 0px 0px 2px 2px  #888888;
+  }
+.git, .git1
+{
+  width:40px;
+  height:40px;
+  padding:0px;
+  margin-top: px;
+  cursor:pointer;
+}
+.git:hover, .git1:hover
+{
+  box-shadow: 0px 0px 2px 2px  #888888;
+}
+.social p
+{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding:0px;
+  font-family: opensans;
+  margin-left:3px;
+}
