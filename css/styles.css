@@ -82,3 +82,20 @@ p{
   font-size: 12px;
   margin-top: 0.5rem;
 }
+.dots {
+  margin: 0.8rem 0 0 0;
+}
+.dot-primary {
+  height: 10px;
+  width: 10px;
+  background: #FB601F;
+  margin-right: 0.5rem;
+  border-radius: 50px;
+}
+.dot-secondary {
+  height: 10px;
+  width: 10px;
+  background: rgb(199, 199, 199);
+  margin-right: 0.5rem;
+  border-radius: 50px;
+}
