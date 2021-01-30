@@ -1,0 +1,84 @@
+/* --------Fonts----------- */
+
+@font-face {
+  font-family: "lato";
+  src: url("/fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "lato-bold";
+  src: url("/fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url("/fonts/Poppins/Poppins-Light.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #000 !important;
+  padding: 10px 5px;
+  font-family: poppins;
+}
+p{
+  margin-bottom: 0 !important;
+}
+/* --------Helpers----------- */
+
+/* --------custom classes----------- */
+.custom-container {
+  margin: 0 185px;
+  padding: 45px;
+  background: #fff;
+}
+.custom-container h1{
+  font-family: lato-bold;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+.designation-wrapper {
+  padding: 12px;
+  color: #fff;
+  font-size: 18px;
+  font-family: lato;
+  width: 40%;
+  background: linear-gradient(270deg, #F7B733 0%, #FC4A1A 100%);
+}
+.introduction-wrapper {
+  font-size: 14px;
+  opacity: 0.6;
+  margin: 2rem 0px;
+}
+.divider-wrapper {
+  font-size: 14px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding-bottom: 12px;
+  margin-bottom: 3rem;
+}
+.divider-wrapper div p {
+  opacity: 0.6;
+}
+.content-section img {
+  margin: 0.8rem 0;
+}
+.content-section h4 {
+  font-family: poppins-light;
+  color: #FB601F;
+  opacity: 0.8;
+}
+.content-section h6 {
+  margin-top: 10px;
+}
+.content-section .low-opacity {
+  opacity: 0.7;
+  font-size: 12px;
+}
+.content-section .text-content {
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
