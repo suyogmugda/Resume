@@ -1,0 +1,14 @@
+
+@media only screen and (min-width: 300px) and (max-width: 900px){
+  body{
+    padding: 0;
+  }
+  .custom-container {
+    margin: 0px !important;
+    width: 100%;
+    padding: 26px;
+  }
+  .designation-wrapper {
+    width: 100%;
+  }
+}
