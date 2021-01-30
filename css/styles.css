@@ -1,6 +1,6 @@
 /* --------Fonts----------- */
 
-@font-face {
+/* @font-face {
   font-family: "lato";
   src: url("/fonts/Lato/Lato-Regular.ttf");
 }
@@ -15,7 +15,7 @@
 @font-face {
   font-family: "poppins-light";
   src: url("/fonts/Poppins/Poppins-Light.ttf");
-}
+} */
 * {
   padding: 0;
   margin: 0;
@@ -23,7 +23,7 @@
 body {
   background: #000 !important;
   padding: 10px 5px;
-  font-family: poppins;
+  font-family: Poppins;
 }
 p{
   margin-bottom: 0 !important;
@@ -37,7 +37,8 @@ p{
   background: #fff;
 }
 .custom-container h1{
-  font-family: lato-bold;
+  font-family: Lato;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 42px;
 }
@@ -45,7 +46,7 @@ p{
   padding: 12px;
   color: #fff;
   font-size: 18px;
-  font-family: lato;
+  font-family: Lato;
   width: 40%;
   background: linear-gradient(270deg, #F7B733 0%, #FC4A1A 100%);
 }
@@ -67,13 +68,15 @@ p{
   margin: 0.8rem 0;
 }
 .content-section h4 {
-  font-family: poppins-light;
+  font-family: Poppins;
+  font-weight: 300;
   color: #FB601F;
   opacity: 0.8;
 }
 .content-section h5 {
   margin-top: 10px;
-  font-family: poppins-light;
+  font-family: Poppins;
+  font-weight: 300;
 }
 .content-section .low-opacity {
   opacity: 0.7;
