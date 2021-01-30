@@ -71,15 +71,16 @@ p{
   color: #FB601F;
   opacity: 0.8;
 }
-.content-section h6 {
+.content-section h5 {
   margin-top: 10px;
+  font-family: poppins-light;
 }
 .content-section .low-opacity {
   opacity: 0.7;
-  font-size: 12px;
+  font-size: 14px;
 }
 .content-section .text-content {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 0.5rem;
 }
 .dots {
