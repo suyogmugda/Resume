@@ -16,6 +16,9 @@
     margin-top: 0.5rem;
   }
   .divider-wrapper .text-align-left a img {
-    width: 7%;
+    width: 6%;
+  }
+  .divider-wrapper .text-align-left a img:nth-child(1){
+    margin-left: 0.5rem;
   }
 }
