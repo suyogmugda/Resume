@@ -11,4 +11,11 @@
   .designation-wrapper {
     width: 100%;
   }
+  .divider-wrapper .text-align-left {
+    text-align: left !important;
+    margin-top: 0.5rem;
+  }
+  .divider-wrapper .text-align-left a img {
+    width: 7%;
+  }
 }
