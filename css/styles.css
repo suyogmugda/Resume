@@ -44,11 +44,12 @@ p{
 }
 .designation-wrapper {
   padding: 12px;
-  color: #fff;
+  color: #006099;
   font-size: 18px;
   font-family: Lato;
   width: 40%;
-  background: linear-gradient(270deg, #F7B733 0%, #FC4A1A 100%);
+  /* background: linear-gradient(270deg, #F7B733 0%, #FC4A1A 100%); */
+  background: #A2E3FF;
 }
 .introduction-wrapper {
   font-size: 14px;
@@ -70,7 +71,7 @@ p{
 .content-section h4 {
   font-family: Poppins;
   font-weight: 300;
-  color: #FB601F;
+  color: #006099;
   opacity: 0.8;
 }
 .content-section h5 {
@@ -92,7 +93,7 @@ p{
 .dot-primary {
   height: 10px;
   width: 10px;
-  background: #FB601F;
+  background: #006099;
   margin-right: 0.5rem;
   border-radius: 50px;
 }
